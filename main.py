@@ -4,9 +4,9 @@ import telebot
 import cherrypy
 import config
 
-WEBHOOK_HOST = '35.204.13.201'
+WEBHOOK_HOST = '10.164.0.2'
 WEBHOOK_PORT = 8443  # 443, 80, 88 или 8443 (порт должен быть открыт!)
-WEBHOOK_LISTEN = '35.204.13.201'  # На некоторых серверах придется указывать такой же IP, что и выше
+WEBHOOK_LISTEN = '10.164.0.2'  # На некоторых серверах придется указывать такой же IP, что и выше
 
 WEBHOOK_SSL_CERT = './webhook_cert.pem'  # Путь к сертификату
 WEBHOOK_SSL_PRIV = './webhook_pkey.pem'  # Путь к приватному ключу
